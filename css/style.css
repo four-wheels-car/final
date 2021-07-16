@@ -1,0 +1,32 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #E14658;
+    font-family: sans-serif;
+}
+ul
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    background: #000;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px #333;
+}
+ul li
+{
+    list-style: none;
+    width: 150px;
+}
+ul li a
+{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
