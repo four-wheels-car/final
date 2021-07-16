@@ -1,0 +1,48 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+    position:absolute;
+    transform:translate(11%,00%);
+	width: 1024px;
+    height:960px;
+    background-color: #C0B3A0;
+}
+
+#banner{
+	width: 1024px;
+	height: 209px;
+	background-color: #C0B3A0;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #22252c00;
+    font-family: sans-serif;
+}
+
+#menu{
+	position: absolute;
+    top: 20%;
+	width: 1024px;
+	height: 40px;
+	line-height: 50px;
+	background-color: #E14658;
+	border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #333;
+}
+#menu ul li{
+	float: right;
+	margin-right: 20px;
+}
+
+#menu li a{
+	text-decoration: none;
+	color: #fff;
+}
